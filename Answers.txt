@@ -1,0 +1,52 @@
+Emmet is a toolkit that allows us to create boiler plates through the use of shortcuts. eg use of ! or
+html to create html boiler plates.
+
+Library is pre-written and a developer has better control of functions(more like kitchen utensils we decide how to use them) eg react while a framework is an skeleton masking an application and developer has less control.
+(more like a recipe template it tells us when and how to)e.g angular
+
+Content Delivery Network- CDN used to host sites in development and production.for testing purposes.
+
+React is a javascript framework named by fb developers when reacting to data and state changes as users interact with 
+web applications for efficiency,optimization in development and production.
+
+CrossOrigin attribute prevents Cors errors in development.
+
+React is pre-written js framework used to speed up code development using inbuilt methods
+while ReactDOM is used used to identify the root on which react will be rendered also has in-built methods and
+functions 
+
+React development is used when making apps while react production is production and is faster and  minified.
+
+<!-- Defer and Async attributes -->
+The concepts of Defer and Async attributes in HTML has to do with how html code is run in script tags during download
+and execution.
+Without async and defer attributes, the scripts blocks html parsing(reading of html line by line) while 
+they download and execute and this can slow down page rendering
+
+<!-- async -->
+With async attribute scripts downloads without blocking html parsing
+Executes immediately when download completes and may interrupt html at execution.
+Multiple async scripts may execute in any order (not guaranteed to maintain order)
+Best for independent scripts that don't rely on DOM or other scripts
+
+<!-- defer -->
+Script downloads in parallel with HTML parsing (non-blocking)
+Waits to execute until HTML parsing is completely finished
+Multiple deferred scripts execute in the order they appear in the document
+Executes before the DOMContentLoaded event
+
+<!-- Example -->
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Analytics - can run anytime -->
+    <script src="analytics.js" async></script>
+    
+    <!-- Main app script - needs DOM ready and order -->
+    <script src="main.js" defer></script>
+    <script src="utils.js" defer></script>
+</head>
+<body>
+    <!-- Page content -->
+</body>
+</html>
