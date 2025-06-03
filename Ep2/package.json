@@ -1,0 +1,23 @@
+{
+  "name": "ep2",
+  "version": "1.0.0",
+ 
+  "scripts": {
+    "start": "parcel app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist":[
+    "last 5 versions"
+  ]
+}
