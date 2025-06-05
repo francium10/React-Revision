@@ -1,0 +1,36 @@
+Npm is an online library/repository that contains all pre-written code in form of packages that anyone can download
+and use in their project. it manages all the packages and dependencies.To initiate Npm in an already project just type
+Npm init in the terminal and this creates an a package.json file that is used as a npm  configuration to manage 
+the packages/dependencies of the project.
+
+Next in a project, We need a bundler, a bundler is a tool that helps us get our code ready for production.By doing
+Minification,Compression,Tree-Shaking,Hot-module-replacement,image and video optimization,file Watching algorithms,
+Hot-Reload,Consistent hashing, Beautiful error message, Http/Https hosting,Fast caching, Among others this makes code fast ready for
+production. Examples of bundlers include Parcel, Vite and Webpack.
+npm i -D parcel
+
+ Npx just means run/Execute this package that follows. eg Npx parcel index.html will start an application.
+
+ Parcel Cache just means removing any extra memory even after a page is updated. it is one of the features coming with
+ Parcel as a bundler.
+
+Dev/ -D dependencies are packages only used during development eg parcel is used to ignite an application while
+Normal dependencies are libraries that are used and shipped to production. eg react
+
+.gitignore helps us to manage node_modules which acts like a database for all files/dependencies/libraries/packages
+since node module is big and can be regenerated it is put  in gitignore.
+
+package.json is npm configuration managing versions general versions of all packages in a project while
+package.lock.json stores only exact versions of the packages installed.
+
+Dist folder is used to store minified code that is then shipped to production,another feature of Parcel Bundler.
+
+BrowsersList is another feature/dependency of parcel that makes an application compatible with browsers.
+"BrowsersList":[ last 2 versions]
+
+~Tilde only accepts patch changes and has stability while ^Caret accepts patch and minor changes.
+
+
+
+
+

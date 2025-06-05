@@ -3,12 +3,12 @@
   "version": "1.0.0",
  
   "scripts": {
-    "start": "parcel app.js"
+    "start": "parcel index.html"
   },
   "author": "",
   "license": "ISC",
   "description": "",
-  "type": "module",
+  
   
   "devDependencies": {
     "parcel": "^2.15.2"
