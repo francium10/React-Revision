@@ -9,7 +9,8 @@ Hot-Reload,Consistent hashing, Beautiful error message, Http/Https hosting,Fast 
 production. Examples of bundlers include Parcel, Vite and Webpack.
 npm i -D parcel
 
- Npx just means run/Execute this package that follows. eg Npx parcel index.html will start an application.
+ Npx just means run/Execute this package that follows using npm. 
+ eg Npx parcel index.html will start an application.
 
  Parcel Cache just means removing any extra memory even after a page is updated. it is one of the features coming with
  Parcel as a bundler.
