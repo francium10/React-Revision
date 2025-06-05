@@ -41,14 +41,14 @@ const HeadingComponent=()=>(
     <div id="container">
         {number } 
           <Title/>
-     <h1 className="title"> Here is Functional Heading component</h1>
+     <h1 className="title">Here is Functional Heading component</h1>
    
    </div>
 );
 
 // Other ways of rendering reusable Components
 //  <Title/>
-//   <Title><Title/>
+//  <Title><Title/>
 // {Title}
 
 
