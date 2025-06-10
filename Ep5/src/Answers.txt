@@ -1,0 +1,24 @@
+What is the difference between Named Export, Default export and * as export?
+Named export is used when u have more than 2 components.
+to export in a file and is imported as import {component} from "file"
+
+What is the importance of config.js file
+config.js/data.js/common.js is just hard coded backend
+
+What are React Hooks? 
+Normal js functions that do some extra ordinary things
+which make react unique 
+
+useState()
+These are just javascript functions that give superpowers
+to a state variable. allowing updates and rerendering
+after the page updates.
+const[stateVariable,setStateVariable]=useState(Default);
+SetStateVariable() is function used to update the stateVariable
+
+useEffect()
+This is used to load/delay anything until rendering of the component is done.
+useEffect(
+    ()=>{code to execute},
+    [DependenceArray]
+    );
