@@ -1,0 +1,43 @@
+● Is JSX mandatory for React? not react can be written
+with React.createElement but the code is harder to read  
+
+ Is ES6 mandatory for React? no react can also be 
+ written in other older Es versions. eg functional
+ components be written with function key words
+
+ {TitleComponent} vs {<TitleComponent/>} vs
+{<TitleComponent></TitleComponent>} in JSX the same
+
+How can I write comments in JSX?
+Wrapp in curly brackets and use ctr/
+
+What is Virtual DOM?
+Virtual-Dom is just a react representation of the actual dom 
+it represents tags being rendered to actual html-Dom
+
+What is Reconciliation in React?
+React Fibre,Reconciliation Algorithm is main idea on which react operates on
+it involves finding the diff algorithm which compares
+2 Virtual doms and then updates the UI with actual 
+latests changes withing few milliseconds. This gives
+users a smooth UX. 
+
+Why we need keys in React? When do we need keys in React?
+We need keys to identify our data that we wish to make
+dynamic eg when mapping to have multiple cards displayed
+in dynamic way
+
+Can we use index as keys in React?
+yes we can but not recommended 
+
+Can we use index as keys in React?
+props-stands for properties 
+it is used to pass desired attributes from 
+parent to child making the properties dynamic and
+and basically returns a js object {}
+
+What is a Config Driven UI ?
+This is when what is displayed on the frontend depends on data
+coming from the backend. When ui and backend are in sync
+ 
+
