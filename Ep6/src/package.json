@@ -15,7 +15,9 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.10",
-    "parcel": "^2.15.2"
+    "parcel": "^2.15.2",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^4.1.10"
   },
   "Browserslist": [
     "last 2 versions"

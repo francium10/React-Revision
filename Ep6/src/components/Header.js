@@ -3,11 +3,11 @@ import { LOGO_URL } from "../utils/constant";
 import { useState } from "react";
 
 const Header = () => {
-  const [loginButton, setLoginButton] = useState("Login");
+  const [loginBtn, setLoginBtn] = useState("Login");
 
   return (
-    <div className="flex justify-between shadow-l bg-pink-400 h-24">
-      <div className="logo-container w-40">
+    <div className="flex justify-between shadow-l  h-24">
+      <div className="logo-container ">
         <img className="w-40 h-24" src={LOGO_URL} />
       </div>
 
@@ -17,15 +17,14 @@ const Header = () => {
           <li className="px-4">About Us</li>
           <li className="px-4">Contact Us</li>
           <li className="px-4">Cart</li>
-
           <button
-            className="login-btn"
+            className="login-button px-4  bg-green-100 "
             onClick={() => {
-              loginButton === "login"
-                ? setLoginButton("logout")
-                : setLoginButton("login");
+              loginBtn === "Login"
+                ? setLoginBtn("Logout")
+                : setLoginBtn("Login");
             }}>
-            {loginButton}
+            {loginBtn}
           </button>
         </ul>
       </div>
