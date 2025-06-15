@@ -1,0 +1,84 @@
+What is a Microservice?
+This is a type of architecture where the application is divided 
+into small projects. eg Ul,Backend,Database,Sms,Email,Payment system etc
+
+Advantages of microservice ?
+● You work in small teams this makes work more efficient
+● Easier to catch bugs (debug)
+● Code can be deployed in different ports but will be all linked to one 
+  domain name.
+● Separation of concerns
+● Can use different Tech-stack
+
+
+What is Monolith architecture?
+Monolith is a type of architecture where application is developed 
+and deployed as one big project.
+
+Why do we need a useEffect Hook?
+We use useEffect() hook Which is a normal javascript function but 
+has a special side effect of delaying to perform and action.
+typically, we use useEffect to make an API call to backend.
+we fetch through the same useEffect() as it accepts 12 parameters
+
+seEffect(()=>{
+    fetchData();
+},[]);
+
+const fetchData=async()=>{
+const data=await fetch(Url to fetch data from);
+const json=data.json()
+
+update the local state variable within the function . eg 
+setListOfRestraunt(data.json.card.card. etc from Api extraction)
+}
+
+What is Optional Chaining?
+This is simply adding a .? to nested objects and arrays.
+●it prevents runtime errors
+●cleaner Code
+●Better performance
+●improved readability
+
+What is Shimmer UI?
+This is just a fake user interface developed to improve the user experience
+it displays a fake ul as the Data from Backend/API is being called
+just a psycological concept to improve Ux. it is done through
+condition or through conditional rendering
+
+if(ListOfRestraunt.length===0){
+    return <Shimmer/>
+}
+
+Conditional rendering
+Rendering based on conditions example is rendering shimmmer ui only
+When Api is still fetching data from BE.
+eg 
+Return 
+ListOfRestraunt.length===0 ?
+(<Shimmer/>):
+(<div className=Body>
+<div>
+)
+
+What is CORS? cross origin resource sharing is basically
+a policy for browsers to only allow sharing between 2 Api calls from the 
+same port or same call. otherwise throw an error.
+you can fix this by installing a Cors chrome extension
+or add CorsProxy to your url/Api which will sort the issue out. CorsProxy will bypass
+any restriction given by CORS.
+"https://corsproxy.io/https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.3038945&lng=70.80215989999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+
+What is async and await?
+This is just a new way of handling promises returned from fetch. it is a syntactic sugar  
+
+What is the use of `const json = await data.json();` in getRestaurants() ?
+it converts the fetched Data into a json file easily understood
+by javascript.
+
+What is the difference between JS expression and JS statement?
+Expression can be evaluated and they produce a value. Any valid Code
+
+Statement does not really produce a value. eg x+5
+
+Declaration introduces a new identifier
