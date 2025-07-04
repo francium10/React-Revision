@@ -40,6 +40,7 @@ const appRouter = createBrowserRouter([
         element: <Menu />,
       },
     ],
+
     errorElement: <Error />,
   },
 ]);
